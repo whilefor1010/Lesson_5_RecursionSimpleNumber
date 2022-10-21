@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int number = 18;
+        int number = 118;
 
         boolean isSeample = isSeampleNumber(number, number-1);
 
@@ -21,7 +21,7 @@ public class Main {
         }
 
         if (number % div == 0){
-            System.out.println(" oops");
+            System.out.println(" oops...");
             return false;
         }
 
